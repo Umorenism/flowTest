@@ -23,7 +23,7 @@ router.route("/all-users").get(authorization, getAllUsers);
 
 // router.route("/all-user").get(authRized, getAllUser);
 router.route("/:userID/delete-user").delete(deleteUser);
-router.route("/dele-user").get(getAllUser);
+router.route("/all-user").get(getAllUser);
 
 router.route("/verify-user").patch(verifyUser);
 router.route("/logout").get(logOutUser);
